@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Bona";
+  src: url(../src/assets/fonts/BonaNovaSC-Regular.ttf);
+}
+body {
+  font-family: Bona;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,72 @@
+.header-background {
+  background-color: dimgray;
+  padding: 30px 0;
+}
+
+.header-all {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  gap: 32px;
+}
+.header-all a {
+  transition: 0.5s ease-in-out;
+}
+.header-all a:hover {
+  transform: scaleZ(1.4);
+  transform: scaleX(1.5);
+  transform: scaleY(1.2);
+}
+
+.posts-count {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.post-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.post-card button {
+  background: none;
+  color: #555;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  align-self: flex-start;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: 0.4s;
+}
+
+.post-card button:hover {
+  background-color: #ccc;
+}
